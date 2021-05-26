@@ -29,12 +29,43 @@ h1{
     text-shadow: 0 0 4px rgb(255, 0, 0), 0 0 4px rgb(255, 0, 0), 0 0 4px rgb(255, 0, 0);
 }
 
+h2{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding-top: 20px;
+    text-shadow: 0 0 4px rgb(255, 0, 0), 0 0 4px rgb(255, 0, 0), 0 0 4px rgb(255, 0, 0);
+}
+
+
 .pres{
     width: 50%;
     margin-right: 25%;
     margin-left: 25%;
     margin-bottom: 30px;
     display: flex;
+    background-color: #263A4F;
+    border-radius: 10px;
+}
+
+
+.pres_g{
+    width: 50%;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-bottom: 30px;
+    display: flex;
+    background-color: #263A4F;
+    border-radius: 10px;
+}
+
+.pres_d{
+    width: 50%;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row-reverse;
     background-color: #263A4F;
     border-radius: 10px;
 }
